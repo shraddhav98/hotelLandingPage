@@ -1,0 +1,350 @@
+/* Navbar */
+@media screen and (max-width: 1160px) {
+    .nav {
+      padding: 15px 20px;
+    }
+    .nav .search-box {
+      right: 150px;
+    }
+  }
+  @media screen and (max-width: 950px) {
+    .nav {
+      padding: 15px 50px;
+    }
+    .nav .search-box {
+      right: 100px;
+      max-width: 400px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .nav .navOpenBtn,
+    .nav .navCloseBtn {
+      display: block;
+    }
+    .nav {
+      padding: 15px 20px;
+    }
+    .nav .nav-links {
+      position: fixed;
+      top: 0;
+      left: -100%;
+      height: 100%;
+      max-width: 280px;
+      width: 100%;
+      padding-top: 50px;
+      row-gap: 20px;
+      flex-direction: column;
+      background-color: #fff;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      transition: all 0.4s ease;
+      z-index: 100;
+      align-items: flex-start;
+    }
+    .nav a {
+      color: #000;
+      text-decoration: none;
+    }
+    .nav.openNav .nav-links {
+      left: 0;
+    }
+    .nav .navOpenBtn {
+      color: #e3a51e;
+      font-size: 25px;
+      cursor: pointer;
+    }
+    .nav .navCloseBtn {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      color: #000;
+      font-size: 20px;
+      cursor: pointer;
+    }
+    .nav .search-box {
+      top: calc(100% + 10px);
+      max-width: calc(100% - 20px);
+      right: 50%;
+      transform: translateX(50%);
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    .searchBar {
+      flex-grow: 1;
+      flex-basis: 700px;
+  }
+  .filter-section .results{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .product-short {
+    margin-top: 10px;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .rooms-grid .add-to-cart {
+    color: rgb(255, 255, 255);
+    background: rgb(225, 165, 28);
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 10px 30px;
+    border-radius: 30px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+}
+.rooms-grid .title a {
+  font-size: 14px;
+  color: #111;
+  transition: all 0.3s ease 0s;
+}
+
+.offer-card{
+  display: none;
+}
+.section-title span::after {
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 4px;
+  background: #e3a51e;
+  /* bottom: 0; */
+  left: 40%;
+}
+.service-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+  margin: 10px 0px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.card-image img {
+  height: 70px;
+  width: 70px;
+}
+  }
+
+
+  @media screen and (max-width:450px) {
+
+    .nav {
+      padding: 15px 5px;
+    }
+    .nav i{
+      margin: 0px 4px;
+    }
+
+        .carousel-caption h1{
+        font-size: 2rem !important;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+}
+
+.carousel-item, .carousel-item img{
+    height: 288px !important;
+}
+    /* .carousel-item img{
+      height: 350px;
+    }
+    .carousel-caption {
+      position: absolute;
+      right: 15%;
+      bottom: 1.25rem;
+      left: 13%;
+      padding-top: 1.25rem;
+      padding-bottom: 1.25rem;
+      color: #fff;
+      text-align: left;
+      top: 17%;
+  } */
+ 
+
+.text-title {
+  font-size: 0.8em;
+  font-weight: bold;
+}
+.card-button {
+  transform: translate(-50%, 125%);
+  width: 60%;
+  border-radius: 1rem;
+  border: none;
+  background-color: #e1a51c;
+  color: #fff;
+  font-size: 0.6rem;
+  padding: .5rem;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.3s ease-out;
+}
+
+.section-title span::after {
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 4px;
+  background: #e3a51e;
+  /* bottom: 0; */
+  left: 27%;
+}
+
+
+
+.rooms-grid .add-to-cart {
+  color: rgb(255, 255, 255);
+  background: rgb(225, 165, 28);
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: capitalize;
+  padding: 5px 10px;
+  border-radius: 0px;
+  display: inline-block;
+  transition: all 0.3s ease 0s;
+  width: 100%;
+}
+.rooms-grid .room-disc {
+  padding: 5px;
+}
+
+.item {
+  padding: 4px;
+}
+.service-card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  margin: 10px 0px;
+  flex-wrap: nowrap;
+}
+.card-image {
+    border-radius: 1rem;
+    background: #F5F5F5;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    padding: 17px;
+}
+
+.card-text h5{
+  font-size: 0.8rem;
+}
+.card-image img {
+    height: 50px;
+    width: 50px;
+}
+.room-disc p {
+    color: #5F5C5C;
+    font-size: 0.76rem;
+    margin: 15px 0px;
+}
+.carousel-caption .subtext {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    margin: 0.4rem 0rem;
+}
+
+.subtext .line{
+  display: none;
+}
+
+
+
+  }
+/* Styles for screens smaller than 400px wide */
+@media (max-width: 400px) {
+  .image1 img {
+    height: 200px;
+    width: 300px !important;
+  }
+
+ .image2 img {
+    height: 150px;
+    width: 100px;
+    bottom: -26px;
+    right: 10px;
+    border: 5px solid #fff;
+  }
+}
+  @media (max-width: 600px) {
+  .image1 img {
+    height: 300px;
+    width: 400px;
+  }
+
+  .image2 img {
+    height: 200px;
+    width: 150px;
+    bottom: -36px;
+    right: 20px;
+    border: 8px solid #fff;
+  }
+}
+
+
+@media (max-width: 1024px) {
+  .image1 img {
+    height: 300px;
+    width: 400px;
+  }
+
+  .image2 img {
+    height: 200px;
+    width: 150px;
+    bottom: -36px;
+    right: 20px;
+    border: 8px solid #fff;
+  }
+}
+@media (max-width: 768px) {
+  .image1 img {
+    height: 300px;
+    width: 100%;
+    
+  }
+
+  .image2 img {
+    height: 200px;
+    width: 250px;
+    bottom: -36px;
+    right: 20px;
+    border: 8px solid #fff;
+  }
+}
+  @media screen and (max-width: 1040px){
+    .rooms-grid{ margin-bottom: 30px; }
+    .preview {
+      margin-bottom: 20px;
+    }
+    .wrapper {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+    }
+    .section-title span::after {
+      content: "";
+      position: absolute;
+      width: 150px;
+      height: 4px;
+      background: #e3a51e;
+      /* bottom: 0; */
+      left: 42%;
+  }
+    
+}
+
+
+
+@media screen and (max-width:450px){
+
+}
