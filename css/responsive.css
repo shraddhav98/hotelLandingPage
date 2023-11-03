@@ -48,7 +48,7 @@
       left: 0;
     }
     .nav .navOpenBtn {
-      color: #e3a51e;
+      color: #FE7079;;
       font-size: 25px;
       cursor: pointer;
     }
@@ -109,7 +109,7 @@
   position: absolute;
   width: 150px;
   height: 4px;
-  background: #e3a51e;
+  background: #FE7079;;
   /* bottom: 0; */
   left: 40%;
 }
@@ -191,7 +191,7 @@
   position: absolute;
   width: 150px;
   height: 4px;
-  background: #e3a51e;
+  background: #FE7079;;
   /* bottom: 0; */
   left: 27%;
 }
@@ -336,7 +336,7 @@
       position: absolute;
       width: 150px;
       height: 4px;
-      background: #e3a51e;
+      background: #FE7079;;
       /* bottom: 0; */
       left: 42%;
   }
